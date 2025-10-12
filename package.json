@@ -1,0 +1,38 @@
+{
+  "name": "app-react-pizza-delivery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,css,md}\"",
+    "lint": "eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelnnieva/app-react-pizza-delivery.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abelnnieva/app-react-pizza-delivery/issues"
+  },
+  "homepage": "https://github.com/abelnnieva/app-react-pizza-delivery#readme",
+  "devDependencies": {
+    "@eslint/js": "~9.9.1",
+    "@vitejs/plugin-react": "~4.3.4",
+    "eslint": "~9.9.1",
+    "eslint-config-prettier": "~9.1.2",
+    "globals": "~15.9.0",
+    "vite": "~5.4.20"
+  },
+  "dependencies": {
+    "react": "~18.3.1",
+    "react-dom": "~18.3.1"
+  }
+}
