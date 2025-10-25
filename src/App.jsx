@@ -1,14 +1,18 @@
+import { useState } from "react";
 import { createRoot } from "react-dom/client";
 import Order from "./Order";
 import PizzaOfTheDay from "./PizzaOfTheDay";
+import Header from "./Header";
+import { CartContext } from "./contexts";
 
 const App = () => {
+  const [cart, setCart] = useState([]);
   return (
-    <div>
-      <h1 className="logo">Padre Gino’s - Order Now</h1>
+    <CartContext.Provider value={[cart, setCart]}>
+      <Header />
       <Order />
       <PizzaOfTheDay />
-    </div>
+    </CartContext.Provider>
   );
 };
 
